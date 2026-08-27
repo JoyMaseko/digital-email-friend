@@ -79,13 +79,13 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Workmate — AI Workplace Productivity Assistant" },
+      { title: "WorkBuddy — AI Workplace Productivity Assistant" },
       {
         name: "description",
         content:
-          "Your AI workmate for everyday office tasks: emails, documents, meetings, and tasks in one dashboard.",
+          "Your AI workbuddy for everyday office tasks: emails, documents, meetings, and tasks in one dashboard.",
       },
-      { property: "og:title", content: "Workmate — AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "WorkBuddy — AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:

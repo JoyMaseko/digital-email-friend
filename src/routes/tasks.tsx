@@ -9,13 +9,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/tasks")({
   head: () => ({
     meta: [
-      { title: "Task Manager — Workmate" },
+      { title: "Task Manager — WorkBuddy" },
       {
         name: "description",
         content:
-          "Brain-dump your tasks and let your AI workmate sort them by what needs to be prioritized first.",
+          "Brain-dump your tasks and let AI sort them by urgency and importance so you always know what to do first.",
       },
-      { property: "og:title", content: "Task Manager — Workmate" },
+      { property: "og:title", content: "Task Manager — WorkBuddy" },
       {
         property: "og:description",
         content: "AI task prioritization for busy teams.",

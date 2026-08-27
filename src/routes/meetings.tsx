@@ -9,13 +9,13 @@ import { processMeetingNotes } from "@/lib/ai.functions";
 export const Route = createFileRoute("/meetings")({
   head: () => ({
     meta: [
-      { title: "Meeting Notes — Workmate" },
+      { title: "Meeting Notes — WorkBuddy" },
       {
         name: "description",
         content:
-          "Paste or dictate meeting notes and get a structured breakdown plus a short audio briefing of what was said.",
+          "Turn raw meeting notes into clear decisions and action items, with an audio briefing you can listen to.",
       },
-      { property: "og:title", content: "Meeting Notes — Workmate" },
+      { property: "og:title", content: "Meeting Notes — WorkBuddy" },
       {
         property: "og:description",
         content: "AI meeting note breakdowns with audio briefings.",

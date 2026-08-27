@@ -4,7 +4,7 @@ import { z } from "zod";
 const MODEL = "google/gemini-3.7-flash";
 
 const SYSTEM_BASE =
-  "You are Workmate, an AI workplace productivity assistant embedded in a company dashboard. Be concise, professional, and practical.";
+  "You are WorkBuddy, an AI workplace productivity assistant embedded in a company dashboard. Be concise, professional, and practical.";
 
 async function callGateway(system: string, prompt: string): Promise<string> {
   const key = process.env["LOVABLE_API_KEY"];
