@@ -55,7 +55,7 @@ export function AppShell({ children }: { children: ReactNode }) {
             <Sparkles className="size-4 text-sidebar-primary-foreground" />
           </div>
           <span className="font-display text-lg font-semibold text-sidebar-primary-foreground">
-            Workmate
+            WorkBuddy
           </span>
         </div>
         {nav}
@@ -72,7 +72,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <div className="flex size-7 items-center justify-center rounded-md bg-primary">
             <Sparkles className="size-3.5 text-primary-foreground" />
           </div>
-          <span className="font-display font-semibold">Workmate</span>
+          <span className="font-display font-semibold">WorkBuddy</span>
         </div>
         <button
           onClick={() => setMobileOpen((v) => !v)}

@@ -5,13 +5,13 @@ import { PageHeader } from "@/components/ai";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Workmate — AI Workplace Productivity Assistant" },
+      { title: "WorkBuddy — AI Workplace Productivity Assistant" },
       {
         name: "description",
         content:
-          "Your AI workmate for everyday office tasks: polish emails, summarize documents, break down meeting notes, and prioritize your tasks — all in one dashboard.",
+          "Your AI workbuddy for everyday office tasks: polish emails, summarize documents, break down meeting notes, and prioritize your tasks — all in one dashboard.",
       },
-      { property: "og:title", content: "Workmate — AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "WorkBuddy — AI Workplace Productivity Assistant" },
       {
         property: "og:description",
         content:

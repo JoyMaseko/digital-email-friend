@@ -50,7 +50,7 @@ export function AiButton({
   );
 }
 
-export function ThinkingIndicator({ label = "Workmate is thinking" }: { label?: string }) {
+export function ThinkingIndicator({ label = "WorkBuddy is thinking" }: { label?: string }) {
   return (
     <div className="flex items-center gap-3 rounded-xl border border-border bg-ai-soft px-4 py-3.5">
       <div className="flex gap-1">

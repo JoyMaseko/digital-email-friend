@@ -10,13 +10,13 @@ import { cn } from "@/lib/utils";
 export const Route = createFileRoute("/email")({
   head: () => ({
     meta: [
-      { title: "Email Assistant — Workmate" },
+      { title: "Email Assistant — WorkBuddy" },
       {
         name: "description",
         content:
-          "Write what you want to say and let your AI workmate turn it into a polished, professional email.",
+          "Write what you want to say in plain words and let AI polish it into a professional email in your chosen tone.",
       },
-      { property: "og:title", content: "Email Assistant — Workmate" },
+      { property: "og:title", content: "Email Assistant — WorkBuddy" },
       {
         property: "og:description",
         content: "AI-powered email polishing for professional communication.",

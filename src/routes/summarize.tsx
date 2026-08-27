@@ -9,13 +9,13 @@ import { summarizeDocument } from "@/lib/ai.functions";
 export const Route = createFileRoute("/summarize")({
   head: () => ({
     meta: [
-      { title: "Document Summarizer — Workmate" },
+      { title: "Document Summarizer — WorkBuddy" },
       {
         name: "description",
         content:
           "Upload a document and get a short AI summary with key points and action items in seconds.",
       },
-      { property: "og:title", content: "Document Summarizer — Workmate" },
+      { property: "og:title", content: "Document Summarizer — WorkBuddy" },
       {
         property: "og:description",
         content: "AI document summaries with key points and action items.",
